@@ -125,7 +125,7 @@ useEffect(() => {
   setOpen(true);
   const fetchData = async () => {
     try{
-      const response1 = await axios('http://localhost:3000/dropdown')
+      const response1 = await axios('http://localhost:3005/dropdown')
       const result = response1.data;
 
       // console.log("result", result.tendererDropdown);
