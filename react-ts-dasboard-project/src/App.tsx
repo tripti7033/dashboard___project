@@ -162,7 +162,7 @@ useEffect(() => {
       try {
         setOpen(true);
         const response = await axios.post(
-          '/api/GetOverviewKpiDetails',
+          'https://edsdataprocessfunction.azurewebsites.net/api/GetOverviewKpiDetails',
           JSON.stringify(requestBody),
           {
             headers: {
