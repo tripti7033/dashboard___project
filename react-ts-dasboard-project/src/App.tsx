@@ -141,9 +141,10 @@ useEffect(() => {
     finally {
       setOpen(false);
     }
-
   }
+  
   fetchData();
+
 
 },[])
 

@@ -1,5 +1,6 @@
 import express, { Request, Response} from 'express'
 import cors from 'cors';
+
 import axios from 'axios';
 
 import {AppDataSource} from './data-source'
@@ -13,6 +14,7 @@ const app = express();
 
 app.use(express.json())
 app.use(cors())
+
 const port = 3005;
 
 app.get('/', (req, res) => {
