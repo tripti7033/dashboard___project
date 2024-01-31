@@ -29,12 +29,13 @@ app.post('/year', async (req:Request, res:Response ) => {
         },
       });
      const result1 = response1.data;
+
      const parsedData1 = JSON.parse(result1?.Value);
      const finalData1 = parsedData1?.result?.data_array;
      console.log(finalData1);
 
      const yearRepo = AppDataSource.getRepository(Year)
-
+    //  console.log("Connected to PostgreSQL");
 
      for (const item of finalData1) {
         const newYearData = yearRepo.create({
@@ -42,6 +43,9 @@ app.post('/year', async (req:Request, res:Response ) => {
         });
         await yearRepo.save(newYearData);
     }
+    return res.json ({
+        msg: 'year data successfully added',
+    })  
 
  } catch (err) {
     console.log(err);
