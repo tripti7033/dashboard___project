@@ -4,6 +4,8 @@
 
 This dashboard project is designed to provide users with a comprehensive view of data fetched from multiple APIs. The dashboard consists of three tabs, each containing four dropdown menus. Upon selecting data from these dropdowns, additional API calls are made to retrieve relevant information, which is then displayed on tiles within the dashboard.
 
+![dashboard_project_screenshot](https://github.com/tripti7033/dashboard___project/assets/139527960/fe735459-a20e-4203-911d-1312cc569941)
+
 ## Features
 
 - **Tab Navigation**: Users can navigate between three tabs, each representing a different aspect of the data.
@@ -33,11 +35,11 @@ This dashboard project is designed to provide users with a comprehensive view of
 
 3. Install dependencies for backend:
 
-  ```bash
+   ```bash
    cd ../server
    npm install
    ```
-    
+
 4. Set up the database:
    
    ```bash
