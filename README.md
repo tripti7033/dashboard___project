@@ -36,6 +36,10 @@ This dashboard project is designed to provide users with a comprehensive view of
 3. Install dependencies for backend:
 
    ```bash
+    cd ../clientt
+    npm start
+   ```
+   ```bash
    cd ../server
    npm install
    ```
