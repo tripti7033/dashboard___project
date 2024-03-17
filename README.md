@@ -14,7 +14,7 @@ This dashboard project is designed to provide users with a comprehensive view of
 - **Tile Display**: Selected data is visualized on tiles within the dashboard, providing users with a clear representation of the information.
 
 ## Technologies Used
-- **Frontend**: HTML, CSS, JavaScript, React.js, material-ui
+- **Frontend**: HTML, CSS, JavaScript, React.js, material-ui, Type-script
 - **Backend**: Node.js, express-js, Typeorm
 - **Database**: postgreSQL
   
