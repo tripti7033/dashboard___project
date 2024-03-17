@@ -16,10 +16,49 @@ This dashboard project is designed to provide users with a comprehensive view of
 - **Backend**: Node.js, express-js, Typeorm
 - **Database**: postgreSQL
   
-## Setup Instructions
+## Installation
 
+1. Clone the repository:
+   
+   ```bash
+   https://github.com/tripti7033/Resume-Builder
+   ```
+   
+2. Install dependencies for frontend:
 
+   ```bash
+    cd Resume-Builder/clientt
+    npm install
+  ```
 
+3. Install dependencies for backend:
+
+  ```bash
+   cd ../server
+   npm install
+   ```
+    
+4. Set up the database:
+   
+   ```bash
+   Install Postgres Database if not already installed.
+   Create a new database named 'resumeBuilder'.
+   ```
+
+5. Start the backend server:
+
+   ```bash
+    npm run dev
+    ```
+
+6. Start the frontend development server:
+   
+   ```bash
+    cd ../clientt
+    npm start
+   ```
+   
+7. Access the application in your web browser at `http://localhost:3000`.
 
 ## Usage
 
